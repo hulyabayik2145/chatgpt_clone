@@ -11,7 +11,7 @@ const deleteButton = document.querySelector("#delete-btn");
 console.log(deleteButton);
 const initialHeight = chatInput.scrollHeight;
 
-const API_KEY = "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";
+const API_KEY = "API_KEY";//buraya api_key inizi yazmalısınız.
 //sayfa yüklendiğinde yerel depodan (localStorage) veri yükler.
 
 const loadDataFromLocalStorage = () => {
